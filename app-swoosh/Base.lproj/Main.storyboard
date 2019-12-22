@@ -176,7 +176,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BXQ-Br-bqr" kind="show" id="Y4p-12-eMO"/>
+                                    <action selector="onNextTapped:" destination="TAq-uz-mQk" eventType="touchUpInside" id="cVY-EP-7Uh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCC-xe-gS6">
@@ -214,6 +214,9 @@
                         <viewLayoutGuide key="safeArea" id="868-9e-pOW"/>
                     </view>
                     <navigationItem key="navigationItem" id="Tce-qY-q5B"/>
+                    <connections>
+                        <segue destination="BXQ-Br-bqr" kind="show" identifier="skillVCSegue" id="mRu-0c-pD8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pnd-ix-Xbc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="wep-av-fjQ" userLabel="Exit" sceneMemberID="exit"/>
